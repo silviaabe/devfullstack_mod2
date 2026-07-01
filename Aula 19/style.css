@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF7FF;
+}
+
+.cabecalho {
+  background-color: #A18AA1;
+  color: #FFF7FF;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: #FFF7FF;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #D8BFD8;
+  text-decoration: underline;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.produtos {
+  background-color: #D8BFD8;
+  width: 250px;
+  padding: 25px;
+  border: 1px solid #A18AA1;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.produtos h2 {
+  color: #7B6D7B;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.produtos p {
+  color: #7B6D7B;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.produtos button {
+  background-color: #A18AA1;
+  color: #FFF7FF;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produtos button:hover {
+  background-color: #D8BFD8;
+  color: #A18AA1;
+  border: 1px solid #A18AA1;
+}
+
+.rodape {
+  background-color: #A18AA1;
+  color: #FFF7FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.rodape p {
+  font-size: 12px;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 15px;
+}
+
+.redes-sociais img {
+  width: 25px;
+}
