@@ -1,0 +1,32 @@
+body {
+  background-color: burlywood;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.card {
+  background-color: white;
+  width: 500px;
+  height: auto;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid black;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+#texto {
+  font-size: 10px;
+}
