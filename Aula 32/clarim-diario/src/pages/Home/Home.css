@@ -11,6 +11,10 @@
   font-size: 40px;
 }
 
+.manchete .card__resumo {
+  font-size: 17px;
+}
+
 .grade {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
